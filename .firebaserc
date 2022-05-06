@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "todo-list-3b3a6": {
+      "hosting": {
+        "firesbase-list": [
+          "todo-list-3b3a6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "todo-list-3b3a6"
+  }
+}

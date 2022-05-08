@@ -1,1 +1,4 @@
 <h1>Todolist</h1>
+<ul>
+  <li *ngFor="let todo of todos$ | async">{{ todo["name"] }}</li>
+</ul>

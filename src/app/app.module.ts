@@ -12,12 +12,14 @@ import {
   getFirestore,
   Firestore,
 } from '@angular/fire/firestore';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
